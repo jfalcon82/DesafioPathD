@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RetoSpsaPathD</name>
+    </assembly>
+    <members>
+        <member name="M:RetoSpsaPathD.Controllers.ClienteController.GetAll">
+            <summary>
+            Endpoint de salida GET /listclientes 
+            Lista de personas con todos los datos + fecha probable de muerte de cada una
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RetoSpsaPathD.Controllers.ClienteController.GetKpi">
+             <summary>
+             Endpoint de salida GET  /kpideclientes
+            Promedio edad entre todos los clientes
+            Desviación estándar entre las edades de todos los clientes
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:RetoSpsaPathD.Controllers.ClienteController.CreateCliente(RetoSpsaPathD.Models.Cliente)">
+            <summary>
+            Endpoint de Entrada POST /creacliente (formato de fecha "YYYY-MM-DD")
+            </summary>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
